@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Feedback Result</title>
+    <style>
+        body { font-family: Arial; background: #fafafa; text-align: center; padding-top: 50px; }
+        .card { background: white; padding: 30px; display: inline-block; border-radius: 10px; box-shadow: 0 0 10px #ccc; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>Feedback Received!</h2>
+        <p><strong>Name:</strong> {{ name }}</p>
+        <p><strong>Email:</strong> {{ email }}</p>
+        <p><strong>Message:</strong> {{ message }}</p>
+    </div>
+    <br>
+    <a href="/feedback">Go Back</a>
+</body>
+</html>
